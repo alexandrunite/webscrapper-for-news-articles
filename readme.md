@@ -30,7 +30,7 @@ geckodriver_path = r"C:\Users\admin\Desktop\gecko\geckodriver.exe"
 For OpenAI API key, sign up on their website and replace the `api_key` variable with your API key.
 
 ```python
-api_key = "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"
+api_key = "your_api_key"
 ```
 
 ## How It Works
