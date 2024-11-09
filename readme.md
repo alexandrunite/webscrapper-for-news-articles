@@ -1,4 +1,4 @@
-```markdown
+ markdown
 # 🕸️ Advanced Web Scraper & Article Dashboard 📰✨
 
 ![Project Banner](https://img.shields.io/badge/Web_Scraper-🔥%20Awesome-brightgreen)
@@ -44,7 +44,6 @@ Welcome to the **Advanced Web Scraper & Article Dashboard**! This project is a c
 
 ## 📁 Project Structure
 
-```
 project/
 ├── scraper.py
 ├── models.py
@@ -69,7 +68,6 @@ project/
 ├── proxies.txt
 ├── existingarticles.txt
 └── hyperlinks.txt
-```
 
 ## 🛠️ Installation & Setup
 
@@ -80,10 +78,8 @@ project/
 
 ### Clone the Repository
 
-```bash
 git clone https://github.com/yourusername/advanced-web-scraper.git
 cd advanced-web-scraper
-```
 
 ### Configuration
 
@@ -91,7 +87,7 @@ cd advanced-web-scraper
 
    Create a `.env` file in the root directory and add your environment variables:
 
-   ```env
+    env
    OPENAI_API_KEY=your_openai_api_key
    MAIL_SERVER=smtp.example.com
    MAIL_PORT=587
@@ -100,7 +96,7 @@ cd advanced-web-scraper
    MAIL_USE_TLS=True
    MAIL_USE_SSL=False
    SENTRY_DSN=your_sentry_dsn
-   ```
+    
 
 2. **Update `config.ini`:**
 
@@ -110,15 +106,15 @@ cd advanced-web-scraper
 
 1. **Build the Docker Image:**
 
-   ```bash
+    bash
    docker-compose build
-   ```
+    
 
 2. **Run the Docker Containers:**
 
-   ```bash
+    bash
    docker-compose up
-   ```
+    
 
    The application will be accessible at `http://localhost:5000`.
 
@@ -126,16 +122,16 @@ cd advanced-web-scraper
 
 1. **Install Dependencies:**
 
-   ```bash
+    bash
    pip install -r requirements.txt
    python -m textblob.download_corpora
-   ```
+    
 
 2. **Run the Application:**
 
-   ```bash
+    bash
    python scraper.py
-   ```
+    
 
    Access the dashboard at `http://localhost:5000`.
 
@@ -183,9 +179,9 @@ Ensure the reliability and integrity of the application with comprehensive tests
 
 - **Run Tests:**
 
-  ```bash
+   bash
   pytest
-  ```
+   
 
 ## 🛡️ Security
 
@@ -201,9 +197,9 @@ Easily deploy the application using Docker Compose, which manages all necessary 
 
 - **Build and Run with Docker Compose:**
 
-  ```bash
+   bash
   docker-compose up --build
-  ```
+   
 
 ## 📊 Data Visualization
 
@@ -228,4 +224,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 🔍 **Explore, Analyze, and Stay Informed with the Advanced Web Scraper & Article Dashboard!**
 
-```
+ 
