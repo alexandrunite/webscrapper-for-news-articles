@@ -42,33 +42,6 @@ Welcome to the **Advanced Web Scraper & Article Dashboard**! This project is a c
 - **Error Tracking:** Sentry 🛠️
 - **Testing:** unittest, pytest 🧪
 
-## 📁 Project Structure
-
-project/
-├── scraper.py
-├── models.py
-├── config.ini
-├── requirements.txt
-├── Dockerfile
-├── docker-compose.yml
-├── .env
-├── test_scraper.py
-├── tests/
-│   └── test_scraper.py
-├── .github/
-│   └── workflows/
-│       └── python-app.yml
-├── templates/
-│   ├── index.html
-│   ├── login.html
-│   ├── register.html
-│   └── analytics.html
-├── sites.txt
-├── keywords.txt
-├── proxies.txt
-├── existingarticles.txt
-└── hyperlinks.txt
-
 ## 🛠️ Installation & Setup
 
 ### Prerequisites
