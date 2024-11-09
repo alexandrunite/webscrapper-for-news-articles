@@ -213,7 +213,7 @@ Monitor and resolve issues efficiently with integrated error tracking via Sentry
 
 For any questions, suggestions, or support, feel free to reach out:
 
-- **Email:** your_email@example.com
+- **Email:** alexnite728@gmail.com
 - **GitHub Issues:** [Open an Issue](https://github.com/yourusername/advanced-web-scraper/issues)
 
 ## 📄 License
